@@ -1,0 +1,5 @@
+print('banana', type('banana'))
+print("banana", type("banana"))
+print('I\'am')
+print("I 'am")
+print('''"I 'am"''')
