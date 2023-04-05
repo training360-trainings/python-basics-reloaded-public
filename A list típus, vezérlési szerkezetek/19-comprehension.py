@@ -1,6 +1,6 @@
 net_prices = [1000, 220, 7450, 6600]
-
 gross_prices = []
+
 for i in net_prices:
     gross_prices.append(i * 1.27)
 

@@ -18,12 +18,12 @@ if-else-loop
 if-loop
 comprehension
 comprehension-if
+if-multiple-condition-and-or
 if-multiple-condition-and
 if-multiple-condition-or
-if-multiple-condition-and-or
 is-operator
 while-loop-for-loop
-for-loop-break
+for-loop-break-in-operator
 for-loop-continue
 while-loop-break
 unpacking-variable-definition

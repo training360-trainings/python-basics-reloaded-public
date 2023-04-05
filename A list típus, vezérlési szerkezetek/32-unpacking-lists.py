@@ -1,8 +1,4 @@
-# Unpacking strings
-abc = 'abd'
-# a, b, c = 'ABC'
-a, b, c = abc
-print(a, b, c)
+# Unpacking lists
 
 user = ['Gergely', 'Gáll', 39]
 # first_name = user[0]

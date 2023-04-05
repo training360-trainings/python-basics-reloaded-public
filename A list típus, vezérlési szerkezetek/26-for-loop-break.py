@@ -3,7 +3,7 @@ search = 'Alphabet'
 
 for i in brands:
     if i in brands:
-        print('ok')
+        print(True)
         break
 
-print('Found' if search in brands else 'Not found')
+print(search in brands)

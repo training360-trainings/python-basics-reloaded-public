@@ -1,6 +1,5 @@
 yearly_salary_list = [120000, 72000, 57000, 98000]
 max_salary_filter = 100000
-
 sum_low_salaries = 0
 sum_high_salaries = 0
 
