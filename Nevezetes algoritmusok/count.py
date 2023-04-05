@@ -12,4 +12,5 @@ def count_values(values, search):
 val = [10, 20, 30, 40, 50]
 
 print(count_values(val, 10))
+
 print(val.count(10))

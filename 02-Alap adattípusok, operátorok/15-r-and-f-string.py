@@ -1,10 +1,13 @@
+print('First line\nSecond line')
 print(r'First line\nSecond line')
 
-name = 'John Doe'
-print(f'Name: {name}')
-print(f'Name: {name}, and I\'m {2023-1984} years old.')
+name = "Gergely"
+age = 25
 
-greeting = 'Hi {0}, welcome {0}, glad that you are here {0}'.format(name)
-greeting2 = f'Hi {name}, welcome {name}, glad that you are here {name}'
-
+print(f'My name is {name} and I\'m {age} years old.')
+print(f'My name is {name} and I\'m {age} years old. Call me {name}.')
+greeting = f'My name is {name} and I\'m {age} years old. Call me {name}.'
 print(greeting)
+
+PI_VALUE = 3.14159265359
+print(f'The value of pi is {PI_VALUE:.2f}')

@@ -1,6 +1,6 @@
 
 
-def maximum(values):
+def get_maximum(values):
     max_value = values[0]
     for index in range(1, len(values)):
         if values[index] > max_value:
@@ -9,5 +9,5 @@ def maximum(values):
 
 
 val = [10, 20, 30, 40, 50]
-print(maximum(val))
+print(get_maximum(val))
 print(max(val))

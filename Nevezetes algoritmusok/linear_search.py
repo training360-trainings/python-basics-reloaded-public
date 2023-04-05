@@ -9,7 +9,8 @@ def linear_search(values, element):
     return -1
 
 
-al = [10, 20, 30, 40, 50]
+val = [10, 20, 30, 40, 50]
 
-print(get_index(val, 20))
+print(linear_search(val, 20))
+
 print(val.index(20))
