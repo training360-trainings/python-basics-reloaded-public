@@ -1,0 +1,13 @@
+2
+Mekk Elek
+2
+technika
+1, 2, 3, 4, 4
+matematika
+3, 4, 4
+Lapos Elemér
+2
+technika
+4, 5, 4, 3
+matematika
+1, 1, 1

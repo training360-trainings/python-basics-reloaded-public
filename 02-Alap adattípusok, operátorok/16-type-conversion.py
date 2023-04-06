@@ -1,7 +1,7 @@
 int_value = int('10')
 float_value = float('10.10')
 # ValueError
-#float_value = float('10.10a')
+# float_value = float('10.10a')
 str_value = str(10.10)
 bool_value = bool(0)
 
