@@ -22,7 +22,7 @@ def rename_module_lessons():
             ) else f'{file}'
             filename_number_prefix = f'{"%02d" % (ordered_list.index(optimized_filename[:-3])+1,)}'
             old_path = f'{path}/{file}'
-            new_path = f'{path}/{filename_number_prefix}-{optimized_filename}'
+            new_path = f'{path}/{filename_number_prefix}_{optimized_filename}'
             os.rename(old_path, new_path)
 
 
