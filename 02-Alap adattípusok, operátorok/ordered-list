@@ -21,5 +21,3 @@ multiline-string
 str-format
 r-and-f-string
 string-operators-and-methods
-bool-type-in-operator
-none-type
