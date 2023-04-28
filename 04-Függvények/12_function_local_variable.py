@@ -10,3 +10,5 @@ def calculate_sum_prices(basket):
 
 
 print(calculate_sum_prices([1000, 2000, 3000]))
+# NameError
+# print(sum_price)

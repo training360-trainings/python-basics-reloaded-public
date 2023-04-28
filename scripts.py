@@ -26,6 +26,6 @@ def rename_module_lessons():
             os.rename(old_path, new_path)
 
 
-path = './02-Alap adattípusok, operátorok'
+path = './06-További konténer típusok'
 # get_lessons_from_module()
 rename_module_lessons()

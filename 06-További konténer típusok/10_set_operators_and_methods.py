@@ -51,6 +51,3 @@ x1 <= x2
 
 x1.issuperset({'foo', 'bar'})
 x1 >= x2
-
-
-# x1 > x2

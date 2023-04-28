@@ -2,11 +2,11 @@
 # greetings()
 
 
-def calculate_gross_price(price, vat_percent):
+def calculate_gross_price(price, vat_percent=None):
     if vat_percent is None:
-        return price
+        return 'Gross price can not be calculated'
     return price * (1 + vat_percent / 100)
 
 
 print(calculate_gross_price(1000, 27))
-print(calculate_gross_price(1000, None))
+print(calculate_gross_price(1000))
