@@ -1,4 +1,3 @@
-import subprocess
 import os
 
 print(os.cpu_count())

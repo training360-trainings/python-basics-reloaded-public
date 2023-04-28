@@ -26,6 +26,6 @@ def rename_module_lessons():
             os.rename(old_path, new_path)
 
 
-path = './06-További konténer típusok'
+path = './06-További konténer típusok/lessons/'
 # get_lessons_from_module()
 rename_module_lessons()
