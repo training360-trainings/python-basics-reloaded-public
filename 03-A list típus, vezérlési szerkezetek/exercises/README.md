@@ -3,7 +3,7 @@
 1. Kérj be egy szöveget a felhasználótól, majd írassuk ki az utolsó karakterét!
 2. Írj egy Python programot, amely eltávolítja az összes ismétlődő elemet egy listából, és csak a lista egyedi elemeit
 3. Írj egy Python programot, amely kiírja a listában található összes számot, ami 3-mal vagy 4-el vagy 5-tel osztható. Használj comrehensiont!
-4. Írj egy Python programot, amely a bemenetként kapott listában az összes páros és páratlan számot két külön listába szétválasztja.
+4. Írj egy Python programot, amely a bemenetként kapott listában az összes páros és páratlan számot két külön listába szétválasztja! Használj comrehensiont!
 5. Írj egy Python programot, amely kiírja egy szöveg minden második karakterét.
 6. Írj egy Python programot, amely két azonos hosszúságú listát összefűz egyetlen új listába úgy, hogy az első lista minden páros indexű elemét a második lista megfelelő elemére cseréli.
 7. Adott egy `string`, amely szóközöket tartalmaz. Írj egy programot, amely eltávolítja a szóköz karaktereket a stringből, majd a string karaktereit fordított sorrendben adja vissza.
