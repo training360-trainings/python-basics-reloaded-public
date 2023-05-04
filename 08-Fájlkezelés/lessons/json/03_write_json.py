@@ -3,7 +3,7 @@ from os import path
 
 
 def write_to_json(file, data):
-    with open(f'{path.dirname(__file__)}/{file}', 'w') as f:
+    with open(file, 'w') as f:
         json.dump(data, f)
 
 

@@ -1,11 +1,10 @@
 # importing the csv module
 import csv
-from os import path
 
 
 def write_dict_list_to_csv(file, dict_list):
     fileds = dict_list[0].keys()
-    with open(f'{path.dirname(__file__)}/{file}', 'w', newline='') as csvfile:
+    with open(file, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fileds)
         writer.writeheader()
         writer.writerows(dict_list)

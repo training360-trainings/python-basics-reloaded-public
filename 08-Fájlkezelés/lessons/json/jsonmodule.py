@@ -1,10 +1,9 @@
-from os import path
 from json import load
 
 
 def fetch_items(file, prop):
     json_file = open(
-        file=f'{path.dirname(__file__)}/{file}',
+        file=file,
         mode='r',
         encoding='utf-8'
     )

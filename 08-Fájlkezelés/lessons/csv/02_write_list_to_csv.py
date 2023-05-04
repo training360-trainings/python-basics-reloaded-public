@@ -3,7 +3,7 @@ from os import path
 
 
 def write_csv(file, fields, rows):
-    with open(f'{path.dirname(__file__)}/{file}', 'w', newline='') as csvfile:
+    with open(file, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(fields)
         csvwriter.writerows(rows)
