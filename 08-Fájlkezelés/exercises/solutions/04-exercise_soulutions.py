@@ -1,11 +1,18 @@
 # 4.
-total_length = 0
-word_count = 0
-with open('input.txt', 'r') as file:
-    for line in file:
-        words = line.strip().split()
-        for word in words:
-            total_length += len(word)
-            word_count += 1
+def file_stats(filename):
+    stats = {
+        'line_count': 0,
+        'words_count': 0,
+        'characters_length': 0
+    }
 
-print(total_length / word_count)
+    with open(filename, 'r') as f:
+        for line in f:
+            stats['line_count'] += 1
+            stats['words_count'] += len(line.split())
+            stats['characters_length'] += len(line)
+
+    return stats
+
+
+print(file_stats('statistic.txt'))

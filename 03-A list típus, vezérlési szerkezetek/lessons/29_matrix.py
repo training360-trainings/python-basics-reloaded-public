@@ -6,4 +6,6 @@ matrix = [
 
 for i in matrix:
     for j in i:
-        print(i)
+        print(j)
+
+print([j for i in matrix for j in i])

@@ -1,16 +1,16 @@
-with open('text2.txt', 'r') as file2:
+with open('text2.txt', 'r') as file:
     # teljes tartalom beolvasása
-    print(file2.read())
+    print(file.read())
     # vissza a file elejére
-    file2.seek(0)
+    file.seek(0)
     # egy sor kiolvasása
-    print(file2.readline())
+    print(file.readline())
     # vissza a file elejére
-    file2.seek(0)
+    file.seek(0)
     # soronként bejárás
-    for line in file2:
+    for line in file:
         print(line, end='')
     # vissza a file elejére
-    file2.seek(0)
+    file.seek(0)
     # két akarakter kiolvasása
-    print(file2.read(2))
+    print(file.read(2))

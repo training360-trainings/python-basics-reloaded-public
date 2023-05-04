@@ -1,6 +1,13 @@
-# 5.
-def filter_even_numbers(lst):
-    return [x for x in lst if x % 2 == 0]
+import os
 
 
-print(filter_even_numbers(1, 2, 3, 4, 5, 6))
+def count_txt_files(path='./'):
+    files_dict = {}
+    for file in os.listdir(path):
+        if file.endswith(".txt"):
+            file_path = os.path.join(path, file)
+            files_dict[file] = os.path.getsize(file_path)
+    return files_dict
+
+
+print(count_txt_files())
