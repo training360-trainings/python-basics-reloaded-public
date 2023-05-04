@@ -26,6 +26,6 @@ def rename_module_lessons():
             os.rename(old_path, new_path)
 
 
-path = './08-A Python modulrendszere/lessons/'
+path = './04-Függvények/lessons/'
 # get_lessons_from_module()
 rename_module_lessons()

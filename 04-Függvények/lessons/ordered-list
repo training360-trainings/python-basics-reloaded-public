@@ -11,6 +11,7 @@ function_global_variable
 function_global_keyword
 function_local_variable
 pass
+tarnary_operator
 redundant_code
 redundant_code_solution
 redundant_code_solution_with_comprehension

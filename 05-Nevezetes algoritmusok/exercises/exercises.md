@@ -14,6 +14,6 @@
    Tipp: A függvényen belül meg tudod hívni önmagát eltérő paraméterekkel!
 9. Írj egy Python függvényt, amely visszaadja az n-edik Fibonacci-számot. A Fibonacci-sorozat első két eleme 0 és 1, majd a következő számok az előző két szám összegeként számolódnak ki. Tehát a sorozat így néz ki: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
    A függvénynek egy paramétert kell fogadnia: 'n'. Ha az n kisebb, mint 0, a függvénynek `None` értéket kell visszaadnia, egyébként pedig a megfelelő számot.
-   Tipp: A függvényen belül meg tudod hívni önmagát eltérő paraméterekkel!
+   Tipp: A függvényen belül meg tudod hívni önmagát eltérő paraméterekkel! (rekurzió)
 10. Készíts egy függvényt, amely meghatározza, hogy egy szám prím-e vagy sem!
     A függvény paraméterként egy számot kap a visszatérési érték pedig bool típusú érték.
