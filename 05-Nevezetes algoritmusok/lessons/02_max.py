@@ -1,4 +1,4 @@
-
+# Maximum kiválasztás
 
 def get_maximum(values):
     max_value = values[0]

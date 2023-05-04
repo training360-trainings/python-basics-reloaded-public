@@ -1,4 +1,3 @@
-
 # Eldöntés - True, False
 
 def is_contains(values, search):

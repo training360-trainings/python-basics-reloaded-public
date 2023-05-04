@@ -1,4 +1,3 @@
-
 # Megszámlálás - adott elem hányszor van benne
 
 def count_values(values, search):

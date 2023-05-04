@@ -1,15 +1,15 @@
 import random
 
 # Egész számok generálása 1 és 100 között
-szam = random.randint(1, 100)
+num = random.randint(1, 100)
 
-print(szam)
+print(num)
 
 # Keverés
 lista = [1, 2, 3, 4, 5]
 random.shuffle(lista)
 
-print(lista)
+print(lista)        
 
 # Véletlenszerű választás
 my_list = ['apple', 'banana', 'cherry', 'date']

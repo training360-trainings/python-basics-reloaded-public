@@ -12,6 +12,7 @@ function_global_keyword
 function_local_variable
 pass
 tarnary_operator
+recursion
 redundant_code
 redundant_code_solution
 redundant_code_solution_with_comprehension

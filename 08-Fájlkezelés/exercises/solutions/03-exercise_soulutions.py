@@ -1,5 +1,11 @@
 # 3.
-def read_names_from_file(file_path):
-    with open(file_path, 'r') as file:
+from os import path
+
+
+def sort_names(file):
+    with open(f'{path.dirname(__file__)}/{file}', 'r') as file:
         names = [name.strip() for name in file.readlines()]
         return sorted(names)
+
+
+print(sort_names('primarchs.txt'))

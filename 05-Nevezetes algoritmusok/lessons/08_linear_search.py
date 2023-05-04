@@ -1,5 +1,3 @@
-
-
 # Lineáris keresés - adjuk vissza az indexet, ha benne van
 
 def linear_search(values, element):

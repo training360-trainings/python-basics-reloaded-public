@@ -1,6 +1,11 @@
 # 1.
+from os import path
 
-file_name = 'user_data.txt'
-user_name = input('Add meg a neved: ')
-with open(file_name, 'w') as file:
-    file.write(user_name)
+
+def write_name_to_file(file):
+    user_name = input('Add meg a neved: ')
+    with open(f'{path.dirname(__file__)}/{file}', 'w') as file:
+        file.write(user_name)
+
+
+write_name_to_file('username.txt')

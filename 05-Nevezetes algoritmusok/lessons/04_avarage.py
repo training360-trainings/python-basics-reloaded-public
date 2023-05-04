@@ -1,4 +1,4 @@
-# Összegzés
+# Átlag
 
 def summarize(values):
     sum_value = 0
