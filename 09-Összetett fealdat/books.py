@@ -16,15 +16,19 @@ def find_book():
 
 def update_book():
     id = input('Add meg a könyv id-ját, amit módosítani szeretnél!')
-    author = input('Add meg a könyv új szerzőjét, vagy hagyd üresen a mezőt!')
-    title = input('Add meg a könyv új címét, vagy hagyd üresen a mezőt!')
     book = crud_operations.find_item(id, books)
-    updated_book = {
-        'id': book['id'],
-        'title': title if title else book['title'],
-        'author': author if author else book['author']
-    }
-    crud_operations.update_item(id, updated_book, books)
+    # author = input('Add meg a könyv új szerzőjét, vagy hagyd üresen a mezőt!')
+    # title = input('Add meg a könyv új címét, vagy hagyd üresen a mezőt!')
+    # book.update({
+    #     'title': title if title else book['title'],
+    #     'author': author if author else book['author']
+    # })
+    for k in book.keys():
+        data = input(
+            f'Add meg a könyv új {k} értékét, vagy hagyd üresen a mezőt!')
+        if data:
+            book.update({k: data})
+    crud_operations.update_item(id, book, books)
     file_handler.write_file(PATH, books)
 
 
@@ -37,5 +41,5 @@ def create_book():
 
 def delete_book():
     id = input('Add meg a törölni kívánt könyv id-ját!')
-    print(crud_operations.remove_item(id, books))
+    crud_operations.remove_item(id, books)
     file_handler.write_file(PATH, books)
