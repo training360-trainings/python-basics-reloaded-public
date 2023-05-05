@@ -13,3 +13,8 @@ dict
 dict_keys_values_items
 dict_loop
 dict_unpacking
+crud_find
+crud_update
+crud_create
+crud_delete
+crud_reusable

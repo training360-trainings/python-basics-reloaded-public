@@ -9,11 +9,11 @@
    beolvassa a fájlt, majd visszatér a nevek listájával, abc-sorrendben rendezve! A fájlnevet
    paraméterként kapja a függvény.
 4. Hozz létre egy szöveges fájlt tetszőleges tartalommal! Írj egy függvényt, amely statisztikát készít a tartalomról egy
-   dictionary-be, és visszaadja azt. A kulcsok az alábbiak:
+   dictionary-be, és visszaadja azt! A kulcsok az alábbiak:
     - line_count: sorok száma
     - words_count: szavak száma
     - characters_length: a karakterek száma (minden karakter, whitespace karakterek is)
-      A fájlnevet paraméterként kapja a függvény.
+      A fájlnevet paraméterként kapja a függvény
 5. Írj egy Python függvényt, amely a következő feladatokat végzi el:
     - Beolvassa egy könyvtárban található összes fájl nevét és méretét
     - Ha nincs megadva könyvtár, akkor a fájl könyvtára legyen az alapértelmezett útvonal
