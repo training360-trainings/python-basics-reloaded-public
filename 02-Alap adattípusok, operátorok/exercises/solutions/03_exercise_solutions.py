@@ -1,6 +1,5 @@
-# 3.
-a = 2.0
-b = 3.0
-result = a ** b
+# 4.
+sentence = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
+new_sentence = sentence.replace('e', 'a')
 
-print(result)
+print(new_sentence)

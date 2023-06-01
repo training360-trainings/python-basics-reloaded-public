@@ -6,7 +6,7 @@ print(f'+ operator: {"Gáll" + "Gergely"}')
 print(f'* operator: {"Gergely" * 3}')
 print(f'length: {len("Gergely")}')
 
-name = 'gergely'
+name = 'Gergely'
 
 print(f'capitalized name: {name.capitalize()}')
 print(f'name: {name}')
@@ -16,3 +16,4 @@ print(f'all character are lowercase: {name.islower()}')
 print(f'the index of "g": {name.find("g")}')
 print(f'count of "g": {name.count("g")}')
 print(f'replace "e" to "E": {name.replace("e", "E")}')
+print('remove leading spaces:',  '  Gergely '.strip())

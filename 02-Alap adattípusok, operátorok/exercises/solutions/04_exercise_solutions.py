@@ -1,5 +1,5 @@
-# 4.
-sentence = 'Az almafa virágzik.'
-new_sentence = sentence.replace('a', 'e')
+# 6.
+text = input('Kérem, adjon meg egy szöveget: ')
+length = len(text)
 
-print(new_sentence)
+print(length)

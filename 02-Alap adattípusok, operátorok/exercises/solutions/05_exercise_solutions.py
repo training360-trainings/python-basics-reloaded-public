@@ -1,6 +1,5 @@
-# 5.
-num1 = float(input('Kérem, adjon meg egy számot: '))
-num2 = float(input('Kérem, adjon meg még egy számot: '))
-quotient = num1 / num2
+# 7.
+name = input('Add meg a neved: ')
+age = int(input('Add meg az életkorod: '))
 
-print(quotient)
+print(f'A felhasználó neve {name}, és {age} éves.')

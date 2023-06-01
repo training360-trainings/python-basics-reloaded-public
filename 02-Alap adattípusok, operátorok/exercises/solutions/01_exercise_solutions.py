@@ -1,6 +1,6 @@
-# 1.
-a = 5
-b = 7
-c = a + b
+# 5.
+num1 = float(input('Kérem, adjon meg egy számot: '))
+num2 = float(input('Kérem, adjon meg még egy számot: '))
+quotient = num1 / num2
 
-print(c)
+print(quotient)
