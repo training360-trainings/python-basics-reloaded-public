@@ -51,5 +51,7 @@ def rename_all_module_lessons():
     for i in modules:
         rename_module_lessons(i)
 
+
 # get_lessons_from_module()
 # rename_module_lessons()
+rename_all_module_lessons()
