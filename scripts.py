@@ -44,14 +44,15 @@ modules = [
 
 def get_lessons_from_all_module():
     for i in modules:
-        get_lessons_from_module(i)
+        get_lessons_from_module(i + '/lessons')
 
 
 def rename_all_module_lessons():
     for i in modules:
-        rename_module_lessons(i)
+        rename_module_lessons(i + '/lessons')
 
 
 # get_lessons_from_module()
 # rename_module_lessons()
+# get_lessons_from_all_module()
 rename_all_module_lessons()
