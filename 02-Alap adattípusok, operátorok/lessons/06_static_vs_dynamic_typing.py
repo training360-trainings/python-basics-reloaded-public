@@ -1,5 +1,8 @@
 # Dynamic vs Static: fordítási időben ismert-e a típus
 
+# Static - Data Types are checked before execution.
+# Dynamic - Data Types are checked during execution.
+
 # statikus típusogsság:  a változó típusát a kód írása során határozzuk meg
 # a fordító ellenőrzi a típust ha a megadott literál nem az adott típusba tartozik, hibát kapunk
 # a változó típusa a kód futása során nem módosul

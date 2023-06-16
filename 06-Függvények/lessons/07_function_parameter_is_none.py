@@ -1,3 +1,7 @@
+# None
+print(type(None), None)
+
+
 # NameError
 # greetings()
 
