@@ -6,5 +6,4 @@ print(len(yearly_salary_list))
 print(yearly_salary_list[0])
 print(yearly_salary_list[1])
 print(yearly_salary_list[3])
-print(yearly_salary_list[4])
-print(yearly_salary_list[5])  # IndexError: list index out of range
+print(yearly_salary_list[4])  # IndexError: list index out of range

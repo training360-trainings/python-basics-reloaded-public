@@ -13,4 +13,5 @@ PI_VALUE = 3.14
 # Nem kezdődhet számmal
 # kis-nagybetű érzékeny
 # Nem lehet foglalt szó
-# Amennyiben egy változó értéke a program futása közben nem kerül módosításra, az egy konstans érték, a konstansok nevét pedig csupa nagybetűvel írjuk, továbbra is alsóvonással elválasztva egymástól az adott szavakat: `CONST_VALUE`
+# Amennyiben egy változó értéke a program futása közben nem kerül módosításra, az egy konstans érték,
+# a konstansok nevét pedig csupa nagybetűvel írjuk, továbbra is alsóvonással elválasztva egymástól az adott szavakat: `CONST_VALUE`
