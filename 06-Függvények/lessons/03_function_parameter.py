@@ -1,5 +1,5 @@
 # NameError
-# greetings()
+greetings('John')
 
 
 def greetings(name):

@@ -9,6 +9,6 @@ elif grade == 3:
 elif grade == 4:
     print('Jó')
 elif grade == 5:
-    print('Jelens')
+    print('Jeles')
 else:
     print('Ez nem osztályzat')

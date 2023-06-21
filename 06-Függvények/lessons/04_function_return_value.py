@@ -1,7 +1,6 @@
 # NameError
 # greetings()
 
-
 def greetings(name):
     return f'Hi {name}'
 
