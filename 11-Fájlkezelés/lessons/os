@@ -1,0 +1,15 @@
+# 12. Checking if a file exists
+import os
+print(os.path.isfile('example.txt'))
+
+# Getting the size of a file
+import os
+print(os.path.getsize('example.txt'))
+
+# Renaming a file
+import os
+os.rename('example.txt', 'new_example.txt')
+
+# 15. Removing a file
+import os
+os.remove('new_example.txt')
